@@ -1,16 +1,23 @@
 #texto-fonte-root{
+    font-size: 3rem;
 
 }
 
 #texto-paddings-verticais{
+    background-color: lightskyblue;
+    padding: 2em 0;
 
 }
 
 #altura-porcentagem-comprimento{
+    height: 20vw;
+    background-color: lightgreen;
 
 }
 
 #comprimento-metade-altura{
+    width: 50vh;
+    background-color: lightgrey;
 
 }
 
@@ -21,13 +28,18 @@
 }
 
 #fonte-setenta{
+    font-size: 0.7em;
 
 }
 
 #comprimento-pai{
+    background-color: lightsalmon;
+    width: 10%;
 
 }
 
 #altura-pai{
+    height: 10%;
+    background-color: lightslategray;
 
 }
