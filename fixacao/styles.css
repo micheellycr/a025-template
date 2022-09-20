@@ -13,7 +13,7 @@
   }
   
   main {
-    height: 77vh;
+    min-height: 77vh;
     max-width: 800px;
     display: flex;
     flex-direction: row;
@@ -46,3 +46,18 @@
     padding: 20px;
     width: 100%;
   }
+
+  @media screen and (max-device-width: 480px)
+{
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+footer{
+  position: relative;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+}
